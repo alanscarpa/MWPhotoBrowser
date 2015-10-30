@@ -160,7 +160,7 @@ static void * MWVideoPlayerObservation = &MWVideoPlayerObservation;
 	
     // Toolbar
     _toolbar = [[UIToolbar alloc] initWithFrame:[self frameForToolbarAtOrientation:self.interfaceOrientation]];
-    _toolbar.tintColor = [UIColor redColor];
+    _toolbar.tintColor = _toolbarTintColor;
     _toolbar.barTintColor = _bottomBarColor;
 //    [_toolbar setBackgroundImage:_toolbarBackgroundImage forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
 //    [_toolbar setBackgroundImage:_toolbarBackgroundImage forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsLandscapePhone];
